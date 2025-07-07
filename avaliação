@@ -1,0 +1,22 @@
+impor java.util.Scanner;
+public class CalculoNotas {
+public static  void main(String[] args) {
+Scanner scannner = new double[8];
+SYstem.out.println("Digite as 8 notas anuis do alunos:");
+for (int i = 0; i < 8; i =++) {
+SYstem.out.print("notas " + (i + 1) + ": ");
+notas[i]= scanner .nexDouble();
+double[] mediasBimestrais=new double[4];
+mediasBimestrais[0]=(notas[0] + notas[1] /2.0;
+mediasBismestrais[1] = (notas[2] + notas[3]) /.0;
+mediasBismestrais[2]= (notas[4] + notas [5]) /2.0;
+mediasBismestrais[3]= (notas[6]+ notas[7] \ 2.0 ;
+
+import java.util.Scanner;
+public class ConversorTemperatura{
+public static void main(String[]args) {
+Scanner scanner =new Scanner.nextDouble(Sysrem.in);
+System.out.print("Digite a temperatura em graus Celsius:");
+double celsius=scanner.nextDouble();
+double fahreheit=(celsius* 9/5) + 32;
+double kelvin = celsius + 273.15;
